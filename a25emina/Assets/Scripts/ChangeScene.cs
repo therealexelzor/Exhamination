@@ -1,12 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class NewMonoBehaviourScript : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
     public void GoToSceneTwo()
     {
-        SceneManager.LoadScene("Game")
+        SceneManager.LoadScene("Game");
     }
     
-    
+    public void GoToSceneThree()
+    {
+        SceneManager.LoadScene("Story");
+    }
     
 }
